@@ -1,0 +1,59 @@
+/* responsive */
+
+/* -Break-point */
+/* PC */
+@media (min-width:1024px){}
+
+
+/* Ipad and Mobile */
+@media (max-width:1023px){#nav .subnav a{
+    padding: 4px 12px;
+}
+#content .buy-ticket {padding: 14px 20px;}
+.contact-content .contact-form{padding: 14px;}
+#footer .social-list a {font-size: 48px;
+margin-left: 8px; }
+#footer .coppy-right a {
+    padding: 14px 0;
+    display: inline-block;
+}
+#content .contact-info{
+    line-height: 2;
+}
+}
+
+
+/* IPad */
+@media (min-width:741px) and (max-width:1023px)
+{}
+
+/* Mobile */
+@media (max-width:740px) { 
+    .s-full-width,
+    .s-col-full{
+    width: 100% !important;
+    }
+    #header
+    {overflow: hidden;}
+    #header .search-btn {
+       display:none;
+    }
+    #header .menu-btn{
+    display: block;
+    }
+    #nav
+    {display:block;}
+    #nav>li
+    {display: block;}
+    #nav li a {padding: 1px 24px;}
+    #nav>li:first-child{display: inline-block;}
+    #nav .subnav{
+        position: initial;
+        background-color: rgba(112, 107, 107, 0.747);
+    }
+    #nav .subnav a {color: #fff; 
+    padding: 4px 42px;}
+    #content .photo{width: 60%;}
+    #contact .contact-form {margin-top:32px ;}
+    .s-mt-8{margin-top: 8px;}
+}
