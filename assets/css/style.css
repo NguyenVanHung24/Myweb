@@ -150,7 +150,7 @@
     
     #slider { position: relative;
         margin-top: 46px;
-        background:  url("../assets/img/NEW\ YORK.jpg") top center / cover no-repeat ;
+        background:  url(/assets/img/NEW\ YORK.jpg) top center / cover no-repeat ;
         padding-top: 50%;
         
     }
